@@ -11,31 +11,31 @@
  *
  * 4. Выведите результирующий массив в консоль
  */
- 
+
 const cars = [
-    {
-      carBrand: 'Audi',
-      price: 56000,
-      isAvailableForSale: false,
-    },
-    {
-      carBrand: 'Toyota',
-      price: 88000,
-      isAvailableForSale: false,
-    },
-    {
-      carBrand: 'Lada',
-      price: 12000,
-      isAvailableForSale: true,
-    },
-  ]
-  
-  const newCar = {
-    carBrand: 'Volvo',
-    price: 65000,
+  {
+    carBrand: 'Audi',
+    price: 56000,
+    isAvailableForSale: false,
+  },
+  {
+    carBrand: 'Toyota',
+    price: 88000,
+    isAvailableForSale: false,
+  },
+  {
+    carBrand: 'Lada',
+    price: 12000,
     isAvailableForSale: true,
-  }
-  
-  cars.push(newCar)
-  
-  console.log(cars)
+  },
+]
+
+const newCar = {
+  carBrand: 'Volvo',
+  price: 65000,
+  isAvailableForSale: true,
+}
+
+cars.push(newCar)
+
+console.log(cars)
