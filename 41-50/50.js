@@ -10,10 +10,10 @@
 // ТЕСТ 1
 const templateLiteral = (num) => {
   return num < 10
-    ? `Number ${num}.\n This number is less then 10.\n The square root of this number is - ${Math.sqrt(
+    ? `Number ${num}.\nThis number is less then 10.\nThe square root of this number is - ${Math.sqrt(
         num
       )}`
-    : `Number ${num}\n This number is greate then or equal to 10\n The square root of the number is - ${Math.sqrt(
+    : `Number ${num}\nThis number is greate then or equal to 10\nThe square root of the number is - ${Math.sqrt(
         num
       )}`
 }
