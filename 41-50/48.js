@@ -39,7 +39,6 @@ const quantitiesByCategories = (products) => {
     const {category, quantity} = product
 
     qtysCategory[category] = (qtysCategory[category] || 0) + quantity
-
     return qtysCategory
   }, {})
 }
