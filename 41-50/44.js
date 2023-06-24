@@ -10,7 +10,7 @@
 const transports = ['Bus', 'Car', 'Bicycle', 'Airplane']
 
 const isElementInArray = (inputArray, searchElement) => {
-    return inputArray.includes(searchElement)
+  return inputArray.includes(searchElement)
 }
 
 console.log(isElementInArray(transports, 'Bus')) // true

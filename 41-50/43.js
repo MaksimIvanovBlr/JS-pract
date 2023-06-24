@@ -20,7 +20,10 @@ const c = [2, 1, 3]
 const d = [1, 2, 3, 4]
 d.length
 const areArraysEqual = (firstArray, secondArray) => {
-    return firstArray.length === secondArray.length && firstArray.every((element, index) => element === secondArray[index])
+  return (
+    firstArray.length === secondArray.length &&
+    firstArray.every((element, index) => element === secondArray[index])
+  )
 }
 
 console.log(areArraysEqual(a, b)) // true

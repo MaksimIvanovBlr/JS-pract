@@ -13,12 +13,12 @@
 const myNumbers = [123, 50, 27]
 
 const pushIfUnique = (inputArray, newElement) => {
-    if (inputArray.includes(newElement)) {
-        console.log(`${newElement} is already in array`);
-    }else{
-        inputArray.push(newElement)
-        console.log(`we added ${newElement} to the array`);
-    }
+  if (inputArray.includes(newElement)) {
+    console.log(`${newElement} is already in array`)
+  } else {
+    inputArray.push(newElement)
+    console.log(`we added ${newElement} to the array`)
+  }
 }
 
 pushIfUnique(myNumbers, 50) // "50 уже в массиве"
