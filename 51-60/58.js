@@ -16,8 +16,19 @@ let person = {
   name: 'Samanta Larsen',
   cartId: 435,
 }
+{
+  let _id, processed, cart
+  ;({_id, processed, cart, ...person} = person)
+  console.log(_id, processed, cart)
+}
 
 console.log(person)
+
+try {
+  console.log(_id)
+} catch (error) {
+  console.log(`propety _id is not defined`)
+}
 /*
   {
     index: 4,
