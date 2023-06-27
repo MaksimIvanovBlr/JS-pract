@@ -13,6 +13,11 @@ const objectWithNumbers = {
 }
 
 // Создайте функцию здесь
+const mult = (obj) => {
+  const valuseOfObject = Object.values(obj)
+  const multiply = valuseOfObject.reduce((a, b) => a * b, 1)
+  return multiply
+}
 
 const result = mult(objectWithNumbers)
 console.log(result)

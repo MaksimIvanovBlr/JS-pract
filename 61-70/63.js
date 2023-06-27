@@ -19,3 +19,5 @@ function myFn2(a) {
 }
 
 myFn1()
+
+// answer : undefind, 2 , 5, 15

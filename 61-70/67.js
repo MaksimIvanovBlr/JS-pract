@@ -8,7 +8,9 @@
  * для параметра mult в "multiplyBy"
  */
 
-function multiplyBy(a, mult) {
+// answer: we can't use || because 0 = false.
+
+function multiplyBy(a, mult = 2) {
   mult = mult !== undefined ? mult : 2
   console.log(a * mult)
 }
