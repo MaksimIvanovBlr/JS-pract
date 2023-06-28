@@ -10,6 +10,10 @@ const vowels = ['a', 'e', 'i', 'o', 'u']
 const str = 'Today is the best day of my life'
 
 // Напишите код здесь
-
+for (const char of str) {
+  if (vowels.includes(char)) {
+    vowelsCount++
+  }
+}
 console.log(vowelsCount)
 // 9

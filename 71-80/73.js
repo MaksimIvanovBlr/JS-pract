@@ -13,7 +13,12 @@ const cars = [
 ]
 
 // Создайте функцию "carInfo" здесь
-
+const carInfo = (arg) => {
+  const {brand, price} = arg
+  return `Цена автомобиля ${brand} - ${price}$ ${
+    price <= 20000 ? 'и это дешёвая машина' : 'и это дорогая машина'
+  }`
+}
 cars.forEach((car) => console.log(carInfo(car)))
 // Цена автомобиля Honda - 13000$ и это дешёвая машина
 // Цена автомобиля Rolls-Royce - 120000$ и это дорогая машина
